@@ -7,21 +7,7 @@ __pycache__/
 
 # Virtual Environment
 venv/
-env/
-ENV/
-venv.bak/
 
-# Python bytecode
-*.py[cod]
-*$py.class
-
-# Django migrations
-**/migrations/
-
-# Ignore Secrets and Configuration
-*.env
-config/settings/local.py  # Customize this path if using local settings
-config/settings/.secret  # Any secret config file
 
 # VSCode and PyCharm config files
 .vscode/
@@ -30,14 +16,4 @@ config/settings/.secret  # Any secret config file
 # OS generated files
 Thumbs.db
 .DS_Store
-
-# Ignore dependencies
-*.egg
-*.egg-info/
-.eggs/
-
-
-# pip dependency files
-pip-log.txt
-pip-delete-this-directory.txt
 
